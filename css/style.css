@@ -1,0 +1,24 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin:auto;
+	justify-content: center;
+}
+h1{
+	border-right: 2px solid #00D90E;
+	border-bottom:2px solid cyan;
+	font-family: frozito;
+	font-size: 3em;
+	width: 400px;
+	text-align: center;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
+img{
+	width: 400px;
+	height: 300px;
+	margin: 5px;
+	transition: all 2s;
+}
